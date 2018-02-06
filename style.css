@@ -1,0 +1,158 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    position: relative;
+}
+
+nav a:hover {
+    font-size: 22px;
+    font-weight:bold;
+}
+  
+
+#header {
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?ixlib=rb-0.3.5&s=0bf0e19c4cccd55208338df2843487e9&auto=format&fit=crop&w=1950&q=80");
+    opacity:0.90;
+    text-align:center;
+    height:40em;
+    padding-top:100px;
+}
+
+#header h1{
+    color:silver;
+    font-size:7vw;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 2px 2px 3px silver;
+    word-spacing: 30px;
+}
+  
+#header h2{
+    color:silver;
+    font-size:2vw;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 1px 1px 2px silver;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+#about {
+    background-image:url("https://images.unsplash.com/photo-1496047311392-22bec9423e0a?ixlib=rb-0.3.5&s=f4dd19596926e164ef8cb5a95df599ca&auto=format&fit=crop&w=1050&q=80");
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:30em;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    opacity:0.90; 
+    padding-top:50px;
+}
+
+#about h3{
+    text-align:center;
+    color:white;
+    font-size:1vw;
+    font-weight:bold;
+    letter-spacing: 1em;
+    word-spacing: 3px;
+}
+  
+#about p{
+    font-size:0.9vw;;
+    line-height:1.7em;
+    letter-spacing: 0.2em;
+    word-spacing: 0.3em;
+    width:50%;
+    margin:0 auto;
+    margin-top:30px;
+    
+}
+
+#portfolio { 
+    background-color: white;
+    height:55em;
+    font-family: 'Dosis', sans-serif;
+    margin:auto auto;
+}
+    
+#portfolio h3 {
+      text-align:center;
+      color:black;
+      font-size:1.1vw;
+      font-weight:bold;
+      letter-spacing:4px;
+      word-spacing:3px;
+      padding-top:50px;
+}
+    
+#portfolio h4 {
+      text-align:center;
+      color:grey;
+      font-size:0.9vw;
+      font-weight:bold;
+      letter-spacing:4px;
+      word-spacing:3px;
+      margin-top:30px;
+      margin-bottom:70px;
+}
+    
+    img {
+      height:auto;
+      width:auto;
+      padding-left: 15px;
+      padding-right:15px;
+}   
+
+    #contact {
+        background-image:url("https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?ixlib=rb-0.3.5&s=89d1f0957816b236801a8c4a7bf9a2a1&auto=format&fit=crop&w=1121&q=80");
+        height:30em;
+        opacity:0.9;
+        letter-spacing:4px;
+        word-spacing:3px;
+        background-size:cover;
+        background-position:center center;
+        background-repeat: no-repeat;
+        padding-top:30px;
+    }
+    
+    #contact a {
+        font-size:4vw; 
+        color:white;
+        font-weight:bold;
+        left:45%;
+        padding:15px;
+        position:relative;
+       }
+       
+    #contact h3 {
+        text-align: center;
+        font-size:1vw; 
+        color:white;
+        font-weight:bold;
+        letter-spacing: 3px;
+        line-height: 1.6;
+    }
+       
+    #contact h4 {
+        text-align: center;
+        letter-spacing: 2px;
+        font-size:1vw; 
+        color:white;
+        line-height: 1.6;
+    }
+
+   
+.footer {
+    background-color:#252525;
+    color:white;
+    font-weight:bold;
+    padding:20px;
+    text-align:center;
+    font-size:0.7vw;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing:3px;
+}
